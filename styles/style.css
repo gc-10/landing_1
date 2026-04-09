@@ -76,8 +76,8 @@ main {
 }
 .section-page {
     min-height: calc(100vh - 100px);   
-    scroll-margin-top: 100px;   
-    padding: 40px;
+    scroll-margin-top: 100px; 
+    padding: 1px 40px 1px 40px;  
 }
 .section-page:last-child iframe{
     display: block;
@@ -155,7 +155,6 @@ main {
 #contacts {
     display: flex;
     flex-direction: column;
-    justify-content: center; 
     align-items: center;    
     text-align: center;
     background-color: #4a90e2;
